@@ -16,4 +16,7 @@ setuptools.setup(
     url="https://github.com/danielrjohnson/matprop",
     packages=setuptools.find_packages(),
     keywords="backpropagation neural network autograd",
+    install_requires=[
+          'numpy',
+      ],
 )
