@@ -1,6 +1,6 @@
 # MatProp
-MatProp is a small PyTorch-like backpropagation engine and neural network 
-framework defined with autograd-supported matrix operations.
+
+MatProp is a compact [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) engine and [neural network](https://en.wikipedia.org/wiki/Artificial_neural_network) framework that provides a PyTorch-like interface for defining and training neural networks using [autograd](https://en.wikipedia.org/wiki/Automatic_differentiation)-supported matrix operations. It has been thoroughly tested against PyTorch to ensure that its calculations of values and gradients are correct, and despite its capabilities, it has a codebase of only about 300 lines of code with ample documentation. 
 
 ### Installation
 As simple as it gets!
@@ -11,7 +11,7 @@ pip install matprop
 
 ### Neural Network Usage
 The following shows the fit and training code of a fully-connected
-neural network on a sine wave, full example in nn_demo.ipynb
+neural network on a sine wave, full example in [nn_demo.ipynb](https://github.com/DanielRJohnson/MatProp/blob/main/nn_demo.ipynb)
 
 ![model fit of a sin wave](sin_wave_fit.png)
 
@@ -38,7 +38,7 @@ for epoch in tqdm(range(500)):
 
 ### Matrix Usage
 The following shows some MatProp Matrix operations with full autograd support,
-full example and outputs in matrix_demo.ipynb
+full example and outputs in [matrix_demo.ipynb](https://github.com/DanielRJohnson/MatProp/blob/main/matrix_demo.ipynb)
 ```python
 A = Matrix([[1., 2.]])
 
