@@ -1,3 +1,5 @@
 .pytest_cache/
 .idea/
 .DS_Store
+matprop/__pycache__/
+test/__pycache__/
